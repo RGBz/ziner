@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<title>How This Magazine Was Made</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="top">
+<ol>
+    <li><a href="front_cover.html">Front Cover</a></li>
+<li><a href="what_and_why_is_this_magazine.html">What And Why Is This Magazine?</a></li>
+<li><a href="artificial_inconvenience.html">Artificial Inconvenience</a></li>
+<li><a href="i_voted_early.html">I Voted Early</a></li>
+<li><a href="whats_next_for_checkverse.html">What's Next for Checkverse</a></li>
+<li><a href="poetry_corner.html">Poetry Corner</a></li>
+<li><a href="the_day_for_you_app.html">The "Day For You" App</a></li>
+<li><a href="conga_quest_and_conga_studio.html">Conga Quest & Conga Studio</a></li>
+<li><a href="drawing_corner.html">Drawing Corner</a></li>
+<li><a href="what_im_learning.html">What I'm Learning</a></li>
+<li><a href="how_this_magazine_was_made.html">How This Magazine Was Made</a></li>
+<li><a href="a_word_from_the_editor.html">A Word From the Editor</a></li>
+<li><a href="back_cover.html">Back Cover</a></li>
+  </ol>
+</nav>
+<article>
+<h1 id="how-this-magazine-was-made">How This Magazine Was Made</h1>
+<p>Since I like to make extra, unnecessary work for myself, I figured why not create a magazine and a tool to make the magazine at once?</p>
+<p>So to make the magazine, I made <a href="https://github.com/RGBz/ziner">ziner</a>, an open source CLI tool for making your own web-based &#39;zines.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>I&#39;ve become a fan of <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> and figured I could make a tool to convert Markdown articles into something that looks like a magazine.</p>
+<p>The basic idea was:</p>
+<ul>
+<li>Each issue lives inside a directory</li>
+<li>Within the directory include Markdown articles</li>
+<li>The articles can reference images</li>
+<li>The articles can include metadata to style them</li>
+<li>The <code>ziner</code> CLI tool would convert the directory into HTML files that can be uploaded to a website</li>
+</ul>
+<p>Every magazine needs a table of contents which a YAML file would provide.</p>
+<p><code>ziner</code> is a Node application. To have it create the HTML files, run:</p>
+<pre><code class="language-bash">node src/index.js PATH_TO_DIRECTORY/table_of_contents.yml</code></pre>
+<h2 id="the-future-of-ziner">The future of ziner</h2>
+<p>Since I made this tool in one sitting while I made the first magazine to use it, it can obviously stand to be improved.</p>
+<p>Chances are this will never be all that great of a tool, but it&#39;s a fun project.</p>
+<div id="end_square"></div>
+</article>
+<nav class="bottom">
+<ol>
+    <li><a href="front_cover.html">Front Cover</a></li>
+<li><a href="what_and_why_is_this_magazine.html">What And Why Is This Magazine?</a></li>
+<li><a href="artificial_inconvenience.html">Artificial Inconvenience</a></li>
+<li><a href="i_voted_early.html">I Voted Early</a></li>
+<li><a href="whats_next_for_checkverse.html">What's Next for Checkverse</a></li>
+<li><a href="poetry_corner.html">Poetry Corner</a></li>
+<li><a href="the_day_for_you_app.html">The "Day For You" App</a></li>
+<li><a href="conga_quest_and_conga_studio.html">Conga Quest & Conga Studio</a></li>
+<li><a href="drawing_corner.html">Drawing Corner</a></li>
+<li><a href="what_im_learning.html">What I'm Learning</a></li>
+<li><a href="how_this_magazine_was_made.html">How This Magazine Was Made</a></li>
+<li><a href="a_word_from_the_editor.html">A Word From the Editor</a></li>
+<li><a href="back_cover.html">Back Cover</a></li>
+  </ol>
+</nav>
+</body>
+</html>

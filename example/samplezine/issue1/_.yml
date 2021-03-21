@@ -1,0 +1,18 @@
+stylesheets:
+  - style.css
+  - https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap
+  - https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap
+frontCover: front_cover.jpg
+articles:
+  - what_and_why_is_this_magazine
+  - artificial_inconvenience
+  - i_voted_early
+  - whats_next_for_checkverse
+  - poetry_corner
+  - the_day_for_you_app
+  - conga_quest_and_conga_studio
+  - drawing_corner
+  - what_im_learning
+  - how_this_magazine_was_made
+  - a_word_from_the_editor
+backCover: back_cover.jpg
